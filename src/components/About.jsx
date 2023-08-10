@@ -11,17 +11,17 @@ function About() {
           </p>
         </div>
         <div>
-          <figure className=" flex  justify-center bg-gray-800 rounded overflow-hidden text-center  shadow-xl  shadow-yellow-200 md:p-20">
-            <img className="  rounded " src={myPic} alt="" />
-            <div className="pt-6 md:p-2 text-center md:text-left space-y-4 ">
-              <figcaption class="font-medium sm:text-left p-4 text-lg">
-                <div class="text-gray-300 text-left  ">Ivan Monroy</div>
+          <figure className=" flex text-sm md:text-lg justify-center bg-gray-800 rounded overflow-hidden text-center shadow-xl  shadow-yellow-200 md:p-20">
+            <img className="  object-scale-down rounded " src={myPic} alt="" />
+            <div className="pt-6  text-center md:text-left space-y-4 ">
+              <figcaption class="font-medium sm:text-right p-4 text-lg">
+                <div class="text-gray-300 text-left ">Ivan Monroy</div>
                 <div class="text-gray-300 text-left">
                   Software Engineer
                 </div>
               </figcaption>
               <blockquote>
-                <p class=" text-xl  font-medium">
+                <p class="  md:text-xl  md:font-medium  md:text-center  text-sm">
                   “Hello my name is Ivan and I am a software engineer.
                   I graduated from University of California, Riverside with a Bachlor's Degree in Computer Science.
                   I would like to be part of a team to help design and develop great products. Below are some of the projects I have worked on as well as the skills that I have developed.”
