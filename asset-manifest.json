@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/http//:imonr001.github.io/portfolio/static/css/main.344dbd49.css",
+    "main.js": "/http//:imonr001.github.io/portfolio/static/js/main.7a901118.js",
+    "static/media/Ivan_Monroy_resume_.pdf": "/http//:imonr001.github.io/portfolio/static/media/Ivan_Monroy_resume_.110355165120c780235f.pdf",
+    "static/media/logo1.png": "/http//:imonr001.github.io/portfolio/static/media/logo1.fa638193f958b8555328.png",
+    "static/media/react.png": "/http//:imonr001.github.io/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/http//:imonr001.github.io/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/my_pic.jpeg": "/http//:imonr001.github.io/portfolio/static/media/my_pic.6c6e35290393bd04a51d.jpeg",
+    "static/media/github.png": "/http//:imonr001.github.io/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/http//:imonr001.github.io/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/http//:imonr001.github.io/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/http//:imonr001.github.io/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/http//:imonr001.github.io/portfolio/index.html",
+    "main.344dbd49.css.map": "/http//:imonr001.github.io/portfolio/static/css/main.344dbd49.css.map",
+    "main.7a901118.js.map": "/http//:imonr001.github.io/portfolio/static/js/main.7a901118.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.344dbd49.css",
+    "static/js/main.7a901118.js"
+  ]
+}
