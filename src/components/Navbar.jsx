@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import ResumePDF from "../assets/Ivan_Monroy_R.pdf";
 import Logo1 from "../assets/logo1.png";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -28,16 +28,43 @@ function Navbar() {
       </div>
       {/* {menu} */}
       <ul className="hidden md:flex">
-        <li><Link to="home" spy={true} smooth={true} offset={50} duration={500}>
-          Home </Link></li>
-        <li><Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-          About </Link></li>
-        <li><Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
-          Skills </Link></li>
-        <li><Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
-          Projects </Link></li>
-        <li><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
-          Contact </Link></li>
+        <li>
+          <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+            Home{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+            About{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
+            Skills{" "}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Projects{" "}
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact{" "}
+          </Link>
+        </li>
       </ul>
 
       {/* hamburger */}
@@ -53,23 +80,66 @@ function Navbar() {
         }
       >
         <li className=" py-6 text-4xl">
-        <Link onClick={handleClick} to="home" spy={true} smooth={true} offset={50} duration={500}>
-          Home </Link>
+          <Link
+            onClick={handleClick}
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Home{" "}
+          </Link>
         </li>
         <li className=" py-6 text-4xl">
-        <Link onClick={handleClick} to="about" spy={true} smooth={true} offset={50} duration={500}>
-          About </Link>
+          <Link
+            onClick={handleClick}
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About{" "}
+          </Link>
         </li>
         <li className=" py-6 text-4xl">
-        <Link onClick={handleClick} to="skills" spy={true} smooth={true} offset={50} duration={500}>
-          Skills </Link>        </li>
-        <li className=" py-6 text-4xl">
-        <Link onClick={handleClick} to="projects" spy={true} smooth={true} offset={50} duration={500}>
-          Projects </Link>
+          <Link
+            onClick={handleClick}
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Projects{" "}
+          </Link>
         </li>
         <li className=" py-6 text-4xl">
-        <Link onClick={handleClick} to="contact" spy={true} smooth={true} offset={50} duration={500}>
-          Contact </Link>        </li>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Skills{" "}
+          </Link>{" "}
+        </li>
+
+        <li className=" py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact{" "}
+          </Link>{" "}
+        </li>
       </ul>
 
       {/* social icons */}
