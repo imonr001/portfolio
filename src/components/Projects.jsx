@@ -12,7 +12,7 @@ function Projects() {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-300 ">
             Projects
           </p>
-          <div className="   justify-normal  justify-items-start w-full grid grid-cols-1 sm:grid-cols-3 sm:gap-96 gap-32   ">
+          <div className="justify-normal  justify-items-start w-full grid grid-cols-1 sm:grid-cols-3 sm:gap-96 gap-32   ">
             <Card
               live={"https://imonr001.github.io/notes/"}
               github={"https://github.com/imonr001/notes"}

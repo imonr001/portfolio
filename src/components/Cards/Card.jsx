@@ -28,7 +28,7 @@ function Card(props) {
           </button>
         </div>
         <div className="sm:mt-10 flex mx-auto  justify-evenly  h-full  max-h-28  text-center bg-gray-900 " >
-          <p className="  invisible sm:visible   flex-1 border-4 border-yellow-300 p-5   text-base text-center rounded-lg font-bold">{props.msg}</p>
+          <p className="  invisible sm:visible   flex-1 sm:border-4 sm:border-yellow-300 sm:p-5   text-base text-center rounded-lg font-bold">{props.msg}</p>
         </div>
       </div>
   

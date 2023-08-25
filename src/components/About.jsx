@@ -5,8 +5,8 @@ function About() {
   return (
     <div name="about" className="w-full h-screen bg-gray-800 text-gray-300  ">
       <div className=" flex flex-col  justify-center items-center w-full h-full">
-        <div className=" flex justify-center p-2 bg-gray-800 rounded ">
-          <p className="text-4xl font-bold inline  border-b-4 border-yellow-300 ">
+        <div className=" flex justify-center mt-28 p-2 bg-gray-800 rounded ">
+          <p className="text-4xl font-bold inline border-b-4 border-yellow-300 ">
             About Me
           </p>
         </div>
