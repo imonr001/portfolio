@@ -6,10 +6,10 @@ function Card(props) {
   };
 
   return (
-    <div className="  p-10  mb-5  sm:pb-32    ">
-      <div className="    h-20 w-84  sm:h-[400px] sm:w-[400px]  max-h[500px] max-w-[500px]  sm:border-4  sm:rounded-lg border-yellow-300  md:hover:scale-150 duration-500 ">
+    <div className="    p-10  mb-5  sm:pb-32    ">
+      <div className="    h-14 w-84  sm:h-[400px] sm:w-[400px]  max-h[500px] max-w-[500px]  sm:border-4  sm:rounded-lg border-yellow-300  md:hover:scale-150 duration-500 ">
         <img className="  sm:h-80 sm:w-full" src={props.image} alt="thisIma" />
-        <div className=" flex  p-4  justify-center  bg-gray-900  sm:p-4   ">
+        <div className=" flex  pb-2 p-4  justify-center  bg-gray-900  sm:p-4   ">
           <button
             onClick={() => {
               newTabClick(props.live);
@@ -28,7 +28,7 @@ function Card(props) {
           </button>
         </div>
         <div className="sm:mt-10 flex mx-auto  justify-evenly  h-full  max-h-28  text-center bg-gray-900 " >
-          <p className="  invisible sm:visible   flex-1 sm:border-4 sm:border-yellow-300 sm:p-5   text-base text-center rounded-lg font-bold">{props.msg}</p>
+          <p className="  hidden sm:visible sm:flex  sm:flex-1 sm:border-4 sm:border-yellow-300 sm:p-5   text-base text-center rounded-lg font-bold">{props.msg}</p>
         </div>
       </div>
   
