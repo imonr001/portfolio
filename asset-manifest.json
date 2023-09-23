@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2a22cd58.css",
-    "main.js": "/portfolio/static/js/main.f6a736d2.js",
+    "main.js": "/portfolio/static/js/main.f6383fd7.js",
     "static/media/scribble.png": "/portfolio/static/media/scribble.34193d29e09c9aaafc90.png",
-    "static/media/Ivan_Monroy_R.pdf": "/portfolio/static/media/Ivan_Monroy_R.66c002986acd45974861.pdf",
+    "static/media/Ivan_Monroy_resume_9-22-23.pdf": "/portfolio/static/media/Ivan_Monroy_resume_9-22-23.b5ecfd9562f543b68855.pdf",
     "static/media/logo1.png": "/portfolio/static/media/logo1.fa638193f958b8555328.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.2a22cd58.css.map": "/portfolio/static/css/main.2a22cd58.css.map",
-    "main.f6a736d2.js.map": "/portfolio/static/js/main.f6a736d2.js.map"
+    "main.f6383fd7.js.map": "/portfolio/static/js/main.f6383fd7.js.map"
   },
   "entrypoints": [
     "static/css/main.2a22cd58.css",
-    "static/js/main.f6a736d2.js"
+    "static/js/main.f6383fd7.js"
   ]
 }
