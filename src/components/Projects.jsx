@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "./Cards/Card";
 import scribble from "../assets/scribble.png";
-import comingSoon from "../assets/comingSoon.png";
-
+import ubank from '../assets/ubank.png';
 
 function Projects() {
   return (
@@ -14,12 +13,16 @@ function Projects() {
           </p>
           <div className="justify-normal  justify-items-start w-full grid grid-cols-1 sm:grid-cols-3  sm:gap-96 gap-32   ">
             <Card
+              live={"https://ubank-e8qwy8qg5-ivans-projects-443c966c.vercel.app/"}
+              image={ubank}
+              github={"https://github.com/imonr001/ubank"}
+              msg={"Bank website created using Next.js for frontend and Supabase for the backend "} />
+            <Card
               live={"https://imonr001.github.io/notes/"}
               github={"https://github.com/imonr001/notes"}
               image={scribble}
               msg={"Note taking website created using Node.js, React, and Supabase for the backend"}
             />
-            <Card image={comingSoon} msg={"Currently working on a banking website"} />
           </div>
         </div>
       </div>

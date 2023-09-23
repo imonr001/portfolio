@@ -6,6 +6,12 @@ import GITHUB from "../../assets/github.png";
 import REACT from "../../assets/react.png";
 import NODEJS from "../../assets/node.png";
 import HTML from "../../assets/html.png";
+import SQl from "../../assets/sql.png";
+import POSTGRES from "../../assets/postgres.png";
+import cPlusPlus from "../../assets/c++.png";
+import PYTHON from "../../assets/python.jpeg";
+import NOSQL from "../../assets/nosql.jpeg";
+import JAVA from "../../assets/java.png";
 function Skills() {
   return (
     <div name="skills" className=" w-full h-screen bg-cyan-900 text-gray-300">
@@ -25,6 +31,12 @@ function Skills() {
           <SkillsImage skill={GITHUB} name="GITHUB" />
           <SkillsImage skill={REACT} name="REACT" />
           <SkillsImage skill={NODEJS} name="NODEJS" />
+          <SkillsImage skill={SQl} name="SQL" />
+          <SkillsImage skill={NOSQL} name="NOSQL" />
+          <SkillsImage skill={POSTGRES} name="POSTGRES" />
+          <SkillsImage skill={cPlusPlus} name="C++" />
+          <SkillsImage skill={PYTHON} name="PYTHON" />
+          <SkillsImage skill={JAVA} name="JAVA" />
         </div>
       </div>
     </div>
