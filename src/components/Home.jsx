@@ -1,6 +1,6 @@
 import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import resume from '../assets/Ivan_Monroy_resume_9-22-23.pdf'
+import resume from '../assets/Resume_Ivan_Monroy.pdf'
 
 function Home() {
   return (
@@ -18,13 +18,15 @@ function Home() {
           I enjoy building full-stack web applications using react and tailwind
         </p>
         <div>
-          <button className="  text-black font-medium group border-2 px-6 py-3 my-2 flex items-center hover: bg-yellow-200 hover:border-yellow-500" >
-             <a href={resume} download="Ivan_Monroy_Resume">Resume</a>
+          <a href={resume} download="Resume_Ivan_Monroy">
+          <button className="  text-black font-medium group border-2 px-6 py-3 my-2 flex items-center hover: bg-yellow-200 hover:border-yellow-500" >Resume
+             {/* <a href={resume} download="Resume_Ivan_Monroy">Resume</a> */}
             <span className=" group-hover:rotate-90 duration-300">
               <HiOutlineArrowNarrowRight className="ml-3" />
             </span>
            
           </button>
+          </a>
         </div>
       </div>
     </div>

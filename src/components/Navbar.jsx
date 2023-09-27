@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import ResumePDF from "../assets/Ivan_Monroy_resume_9-22-23.pdf";
+import ResumePDF from "../assets/Resume_Ivan_Monroy.pdf";
 import Logo1 from "../assets/logo1.png";
 import { Link } from "react-scroll";
 function Navbar() {
